@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ziyad Dhuka — Backend &amp; Distributed Systems Engineer</title>
-  <meta name="description" content="Ziyad Dhuka — Backend & Distributed Systems Engineer (SDE 2 @ SAP). Event-driven microservices, distributed systems, and multi-agent LLM workflows." />
+  <meta name="description" content="Ziyad Dhuka — Backend & Distributed Systems Engineer (SDE 2 @ SAP). Flight-booking microservices on AWS, supplier integrations at scale, and multi-agent LLM workflows." />
   <meta name="author" content="Ziyad Dhuka" />
   <meta name="theme-color" content="#0A0D12" />
   <link rel="canonical" href="https://ziyaddhuka.github.io/" />
@@ -12,11 +12,11 @@
   <!-- Open Graph / social preview -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Ziyad Dhuka — Backend & Distributed Systems Engineer" />
-  <meta property="og:description" content="Event-driven microservices, distributed systems, and multi-agent LLM workflows. 5+ years shipping to production at SAP." />
+  <meta property="og:description" content="Flight-booking microservices on AWS, supplier integrations at scale, and multi-agent LLM workflows. 5+ years shipping to production at SAP." />
   <meta property="og:url" content="https://ziyaddhuka.github.io/" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ziyad Dhuka — Backend & Distributed Systems Engineer" />
-  <meta name="twitter:description" content="Event-driven microservices, distributed systems, and multi-agent LLM workflows." />
+  <meta name="twitter:description" content="Flight-booking microservices on AWS, supplier integrations at scale, and multi-agent LLM workflows." />
 
   <!-- Favicon: satellite emoji as inline SVG -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A1%3C/text%3E%3C/svg%3E" />
@@ -272,10 +272,10 @@
 <header class="hero">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow">SDE 2 · SAP · Dallas, TX</span>
+      <span class="eyebrow">SDE 2 · SAP · Houston, TX · Open to Remote</span>
       <h1 class="name">Backend for systems that don't sleep.</h1>
       <div class="role mono">Backend &amp; Distributed Systems Engineer</div>
-      <p class="lede">I build <b>event-driven microservices</b> that stay fast under load — and lately, <b>multi-agent LLM workflows</b> that ship production code on their own. 5+ years turning ambiguous requirements into services that hold their SLOs.</p>
+      <p class="lede">I own <b>flight-booking microservices</b> that integrate five external suppliers and stay fast under load — and lately, <b>multi-agent LLM workflows</b> that turn Jira tickets into reviewable code. 5+ years turning ambiguous requirements into services that hold their SLOs.</p>
       <div class="cta">
         <a class="btn primary" href="mailto:ziyaddhuka7@gmail.com">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
@@ -306,8 +306,8 @@
     <div class="metrics reveal">
       <div class="m"><div class="val" data-count="5" data-suffix="+"></div><div class="lab">Years in production</div></div>
       <div class="m"><div class="val" data-count="400" data-suffix="K+"></div><div class="lab">Searches / weekday</div></div>
-      <div class="m"><div class="val" data-count="99.98" data-dec="2" data-suffix="%"></div><div class="lab">Error-rate SLO held</div></div>
-      <div class="m"><div class="val" data-count="4" data-suffix=""></div><div class="lab">Production services owned</div></div>
+      <div class="m"><div class="val" data-count="99.98" data-dec="2" data-suffix="%"></div><div class="lab">Success-rate SLO held</div></div>
+      <div class="m"><div class="val" data-count="5" data-suffix=""></div><div class="lab">External suppliers integrated</div></div>
     </div>
   </div>
 </header>
@@ -316,8 +316,8 @@
   <div class="wrap">
     <span class="eyebrow reveal">about</span>
     <div class="reveal">
-      <p>I'm a backend engineer who likes the hard parts: keeping a multi-step booking flow <b>stateless across service instances</b>, holding latency SLOs while providers misbehave, and making failures observable before customers feel them.</p>
-      <p>At SAP I own four production services on the NextGen flight-booking path, and I built <b>AutoDev&nbsp;AI</b> — a five-agent LLM workflow that turns Jira tickets into reviewed, tested code. Before that: ETL pipelines, OCR microservices, and CNNs on edge devices. Right now I'm going deeper on agentic AI, LangGraph, and evals.</p>
+      <p>I'm a backend engineer who likes the hard parts: keeping a multi-step booking flow <b>stateless across service instances</b>, holding SLOs while suppliers misbehave, and making failures observable before customers feel them.</p>
+      <p>At SAP I own the supplier adapter on the NextGen flight-booking path — one of four production services — and I built <b>AutoDev&nbsp;AI</b>, a five-agent LLM workflow that turns Jira tickets into reviewable code. Before that: OCR over financial documents for home-loan risk models, and CNNs on edge devices. Right now I'm going deeper on agentic AI, LangGraph, and evals.</p>
     </div>
   </div>
 </section>
@@ -335,11 +335,13 @@
         <div class="xp-body">
           <div class="xp-role"><h3>Software Development Engineer (SDE 2)</h3><span class="co">SAP</span><span class="loc">Dallas, TX</span></div>
           <ul>
-            <li>Architected <b>event-driven microservices</b> for NextGen flight booking with Spring Boot &amp; Kafka — 4 services serving <span class="chip">400K+ searches</span> and <span class="chip">5K bookings</span> per weekday.</li>
-            <li>Established SLO/SLI alerting across the search path: <span class="chip">99.98% error-rate</span> and <span class="chip">100% latency</span> attainment vs 99.95% targets; drove the observability migration from New Relic to <b>Dynatrace</b>.</li>
-            <li>Implemented <b>distributed Redis caching</b> for search offers so price-validation, seat, and ancillary calls resolve against the cached offer — keeping the booking flow stateless across instances.</li>
-            <li>Built <b>AutoDev AI</b>, a multi-agent LLM workflow (Architect · Coder · Reviewer · Security Auditor · Tester) generating production code from Jira, with a PR feedback loop and <b>cost-aware model routing</b>.</li>
-            <li>Migrated the API test suite from Newman to <b>Karate</b>; carry production <b>on-call</b> for owned services.</li>
+            <li>Own the <b>supplier adapter</b> for NextGen flight booking — one of 4 production Spring Boot services on AWS — integrating <b>5 external suppliers</b> (2 GDSs, 3 airline APIs) with differing shop, price, and book flows; serves <span class="chip">400K+ searches</span> and <span class="chip">5K bookings</span> per weekday.</li>
+            <li>Established SLO/SLI alerting for the search path, sustaining a <span class="chip">99.98% success rate</span> against a 99.95% target; contributed to the observability migration from New Relic to <b>Dynatrace</b>.</li>
+            <li>Implemented <b>Redis caching</b> of search offers so price-validation, seat, and ancillary calls resolve against a stored offer instead of re-querying suppliers — keeping the booking flow stateless across instances.</li>
+            <li>Migrated the <b>Ryanair</b> integration from its legacy API to the new digital API against a fixed supplier deadline.</li>
+            <li>Built a <b>booking-error classification dashboard</b> (user vs. supplier) that gave users clearer errors and cut alert noise; carry production <b>on-call</b> for owned services.</li>
+            <li>Designed and built <b>AutoDev AI</b> under SAP's AI initiative — a multi-agent LLM system (Architect · Coder · Reviewer · Security Auditor · Tester) turning Jira tickets into reviewable code, with a PR feedback loop and <b>cost-aware model routing</b>.</li>
+            <li>Migrated the API test suite from Newman to <b>Karate</b> and reduced build times in GitHub Actions.</li>
           </ul>
         </div>
       </div>
@@ -347,10 +349,10 @@
       <div class="job reveal">
         <div class="xp-when"><span class="yr">Jan 2020</span><br>— Jan 2021</div>
         <div class="xp-body">
-          <div class="xp-role"><h3>Software Engineer — Data</h3><span class="co">Switchme Technologies</span><span class="loc">Mumbai, IN</span></div>
+          <div class="xp-role"><h3>Data Scientist</h3><span class="co">Switchme Technologies</span><span class="loc">Mumbai, IN</span></div>
           <ul>
-            <li>Built an automated <b>ETL pipeline</b> in Python that cut bank-statement processing from <span class="chip">20 min → 5 s</span>.</li>
-            <li>Architected an <b>OCR computer-vision microservice</b> for automated financial risk assessment, replacing manual auditing.</li>
+            <li>Rebuilt month-end report generation over the home-loan customer database — replaced a slow multi-join SQL query with vectorized <b>NumPy</b> and parallel execution in Python, cutting runtime from <span class="chip">20 min → 30 s</span>.</li>
+            <li>Built an <b>OCR engine</b> extracting data from financial documents like bank statements, feeding an SVM-based home-loan approval model.</li>
           </ul>
         </div>
       </div>
@@ -358,7 +360,7 @@
       <div class="job reveal">
         <div class="xp-when"><span class="yr">Oct 2018</span><br>— May 2019</div>
         <div class="xp-body">
-          <div class="xp-role"><h3>Software Engineer — ML Platforms</h3><span class="co">Ngaige</span><span class="loc">Mumbai, IN</span></div>
+          <div class="xp-role"><h3>Machine Learning Engineer</h3><span class="co">Ngaige</span><span class="loc">Mumbai, IN</span></div>
           <ul>
             <li>Deployed a <b>CNN</b> system (TensorFlow) at <span class="chip">94% accuracy</span> for real-time sensor classification on edge devices.</li>
             <li>Designed automated training pipelines and fixed critical hardware–software interface bugs, improving inference data integrity.</li>
@@ -382,7 +384,7 @@
           <span class="kind">Multi-agent · LLM</span>
         </div>
         <h3>AutoDev AI</h3>
-        <p>Five specialized agents collaborate to ship <b>production-quality code from a Jira ticket</b>. A PR-based feedback loop scans merged reviews and feeds the learnings back into agent prompts; a real-time dashboard tracks per-agent token usage and task phase, with <b>cost-aware model routing</b> under the hood.</p>
+        <p>Built under SAP's AI initiative: five specialized agents collaborate to turn a <b>Jira ticket into reviewable code</b>. A PR-based feedback loop scans merged reviews and feeds reviewer corrections back into agent prompts, with <b>cost-aware model routing</b> under the hood.</p>
         <div class="tags"><span class="tag">Claude Code</span><span class="tag">Multi-Agent</span><span class="tag">Python</span><span class="tag">LLM Orchestration</span></div>
       </div>
 
@@ -392,7 +394,7 @@
           <span class="kind">RAG · Retrieval</span>
         </div>
         <h3>VoyageGraph</h3>
-        <p>A high-concurrency <b>retrieval service</b> orchestrating data between vector stores and LLMs, tuned for low-latency semantic search. An asynchronous ingestion worker chunks and indexes <b>10k+ travel documents</b> into the RAG pipeline.</p>
+        <p>A high-concurrency <b>retrieval service</b> orchestrating data between vector stores and LLMs to answer natural-language questions over a document corpus, tuned for low-latency semantic search. An asynchronous ingestion worker chunks and indexes <b>10k+ documents</b>, with chunk strategy tuned for retrieval quality.</p>
         <div class="tags"><span class="tag">Spring Boot</span><span class="tag">Redis</span><span class="tag">Pinecone</span><span class="tag">RAG</span></div>
       </div>
     </div>
@@ -406,11 +408,11 @@
       <p>Curated to what I actually run in production.</p>
     </div>
     <div class="stack reveal">
-      <div class="row"><div class="k">languages</div><div class="v"><span>Java</span><span>Kotlin</span><span>Python</span><span>Go</span><span>SQL</span><span>Node.js</span></div></div>
-      <div class="row"><div class="k">backend / arch</div><div class="v"><span>Spring Boot</span><span>Microservices</span><span>Event-Driven</span><span>Kafka</span><span>Redis</span><span>REST</span></div></div>
+      <div class="row"><div class="k">languages</div><div class="v"><span>Java</span><span>Kotlin</span><span>Python</span><span>Golang</span><span>SQL</span><span>JavaScript / Node.js</span></div></div>
+      <div class="row"><div class="k">backend / arch</div><div class="v"><span>Spring Boot</span><span>Microservices</span><span>REST APIs</span><span>Redis Caching</span><span>API Integration</span></div></div>
       <div class="row"><div class="k">cloud / devops</div><div class="v"><span>AWS</span><span>Kubernetes</span><span>Docker</span><span>Terraform</span><span>CloudFormation</span><span>GitHub Actions</span></div></div>
-      <div class="row"><div class="k">ai / ml</div><div class="v"><span>LLM Orchestration</span><span>LangChain</span><span>LangGraph</span><span>RAG</span><span>Pinecone</span><span>TensorFlow</span></div></div>
-      <div class="row"><div class="k">observability</div><div class="v"><span>Dynatrace</span><span>New Relic</span><span>ELK</span><span>Prometheus</span><span>Grafana</span><span>Karate</span><span>JUnit</span></div></div>
+      <div class="row"><div class="k">ai / ml</div><div class="v"><span>LLM Orchestration</span><span>Multi-Agent Systems</span><span>LangChain</span><span>LangGraph</span><span>RAG</span><span>Pinecone</span><span>TensorFlow</span></div></div>
+      <div class="row"><div class="k">observability / testing</div><div class="v"><span>Dynatrace</span><span>New Relic</span><span>ELK</span><span>Prometheus</span><span>Grafana</span><span>Karate</span><span>JUnit</span></div></div>
     </div>
 
     <div style="margin-top:22px" class="edu reveal">
@@ -436,7 +438,7 @@
 
 <footer>
   <div class="wrap foot-in">
-    <span>© 2026 Ziyad Dhuka · Dallas, TX</span>
+    <span>© 2026 Ziyad Dhuka · Houston, TX</span>
     <span>Backend &amp; Distributed Systems Engineer</span>
   </div>
 </footer>
